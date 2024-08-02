@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+marquee{
+    font-size: 1.2rem;
+    background-color: yellowgreen;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+marquee span{
+    color: red;
+}
+
+/* Main Section */
+
+.back {
+    background-color: black;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.main{
+    text-align: center;
+}
+
+.main h1{
+    font-family: sans-serif;
+    color: white;
+    padding-top: 50px;
+}
+
+.main h1 span{
+    color: red;
+}
+
+.main button{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    padding: 8px;
+    font-weight: 700;
+}
+
+/* Greeting Section */
+
+.wrap{
+    color: white;
+    font-family: sans-serif;
+    font-size: 1.8rem;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#clock{
+    margin-top: 10px;
+}
+
+
+
+/* Search Section */
+
+.ser{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 30px;
+    font-family: sans-serif;
+    margin-bottom: 30px;
+}
+
+.search .bar input{
+    padding: 10px;
+    width: 400px;
+    font-size: 1.3rem;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+    color: red;
+    outline: none;
+}
+
+.search i{
+    width: 40px;
+    padding: 11px;
+    font-size: 1.3rem;
+    border: none;
+    outline: none;
+    background-color: white;
+}
+
+#search-icon{
+    border-radius: 0px 0px 0px 0px;
+    border: none;
+    outline: none;
+    color: red;
+    cursor: pointer;
+}
+
+#speak{
+    border: none;
+    outline: none;
+}
+
+.speak #speak {
+   color: red;
+   cursor: pointer;
+}
+
+/* Shortcuts Section */
+
+
+.short-text h2{
+    text-align: center;
+    font-size: 2rem;
+    background-color: white;
+    color: black;
+    font-family: sans-serif;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.shortcuts{
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 50px;
+}
+
+.box a{
+    text-decoration: none;
+    color: white;
+    font-size: 2.5rem;
+}
+
+/* News Section */
+
+.news-container{
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    gap: 20px;
+}
+
+.news{
+    background-color: white;
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.news a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: black;
+    font-weight: 700;
+}
+
+.news-head{
+    padding: 10px 5px;
+}
+
+.news img{
+    width: 300px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+/* Footer Section */
+
+.footer{
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+    font-family: sans-serif;
+    color: white;
+}
+
+/* Media Queries */
+
+@media (max-width: 532px) {
+    .search .bar input{
+    width: 200px;
+    font-size: 1rem;
+    }
+
+    .search i{
+        font-size: 1rem;
+    }
+
+    .shortcuts{
+        padding: 30px 20px;
+    }
+}
+
+
